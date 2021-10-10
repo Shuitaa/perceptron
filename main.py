@@ -1,3 +1,4 @@
+import numpy, random, os
 
 def main():
     print("My first neural Network !!")
