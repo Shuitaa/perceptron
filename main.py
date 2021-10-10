@@ -5,6 +5,12 @@ def main():
     learning_rate = 1
     bias = 1
     weights = [random.random(),random.random(),random.random()]
+    
+    for i in range(50):
+        perceptron(1, 1, 1, learning_rate, bias, weights)
+        perceptron(1, 0, 1, learning_rate, bias, weights)
+        perceptron(0, 1, 1, learning_rate, bias, weights)
+        perceptron(0, 0, 0, learning_rate, bias, weights)
 
 
 def perceptron(in_a, in_b, out, learning_rate, bias, weights):
