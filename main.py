@@ -1,9 +1,10 @@
 import numpy, random, os
 
+
 def main():
-    print("My first neural Network !!")
-
+    learning_rate = 1
+    bias = 1
+    weights = [random.random(),random.random(),random.random()]
     
-
 if __name__ == "__main__":
     main()
